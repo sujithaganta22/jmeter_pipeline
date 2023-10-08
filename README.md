@@ -25,4 +25,3 @@
    
 ##write a pipeline script for jmeter performance test :
 ##note : In github repository-add jenkinsfile and test-plan.jmx file 
-
