@@ -18,7 +18,7 @@ pipeline {
         stage('Publish JMeter Results') {
             steps {
                 // Publish JMeter test results using the Performance Plugin
-                perfReport percentiles: '0,50,90,95,99', sourceDataFiles: 'results.jtl'
+                perfReport percentiles: '0,50,90,95,99', sourceDataFiles: 'test_results.jtl'
             }
         }
     }
