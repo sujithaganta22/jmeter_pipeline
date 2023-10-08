@@ -1,13 +1,13 @@
 # jmeter integrate with jenkins-pipeline
 
 ##Install Jenkins on EC2 :
-    :  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-    :  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
-    :  sudo yum install java-17-amazon-corretto-devel
-    :  sudo yum install jenkins
-    :  sudo systemctl start jenkins
-    :  sudo systemctl enable jenkins
-    :  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+    1  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    2  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+    3  sudo yum install java-17-amazon-corretto-devel
+    4  sudo yum install jenkins
+    5  sudo systemctl start jenkins
+    6  sudo systemctl enable jenkins
+    7  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
     
  ##Install Jmeter on EC2 :   
     1  sudo yum update -y
